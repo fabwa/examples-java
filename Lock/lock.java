@@ -1,5 +1,3 @@
-package examples_neo;
-
 import org.neo.smartcontract.framework.SmartContract;
 import org.neo.smartcontract.framework.services.neo.Blockchain;
 import org.neo.smartcontract.framework.services.neo.Header;
