@@ -1,5 +1,3 @@
-package examples_neo;
-
 import java.math.BigInteger;
 
 import org.neo.smartcontract.framework.Helper;
