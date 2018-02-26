@@ -12,7 +12,7 @@ public class NEP5TOK extends SmartContract {
     	BigInteger supply = BigInteger.valueOf(100000);
         String name = "NEP5TOK";
         String sym = "N5T";
-        byte decimals = 0;
+        BigInteger decimals = BigInteger.valueOf(0);
         
         if (!Runtime.checkWitness(originator)) return false;
 
